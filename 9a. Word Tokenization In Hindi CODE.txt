@@ -1,0 +1,12 @@
+# Word Tokenization In Hindi CODE:
+!pip install torch==1.3.1+cpu -f https://download.pytorch.org/whl/torch_stable.html
+
+!pip install inltk
+
+!pip install tornado==4.5.3 from inltk.inltk import setup setup('hi')
+
+from inltk.inltk import tokenize
+
+hindi_text = """प्राTकृ! तिKकृ भाTषाT सी(खनाT बहुK तिKलचस्प है1।"""
+
+tokenize(hindi_text, "hi")

@@ -1,0 +1,8 @@
+# Identify The Indian Language Of A Text CODE:
+!pip install torch==1.3.1+cpu -f https://download.pytorch.org/whl/torch_stable.html
+
+!pip install inltk
+
+!pip install tornado==4.5.3 from inltk.inltk import setup setup('gu')
+
+from inltk.inltk import identify_language identify_language('@tનાL કાL4PCuL')
